@@ -1,6 +1,4 @@
-Here’s a template for your GitHub README to document your 100 Days of Code in Java:
 
----
 
 # 100 Days of Code: Java Challenge
 
