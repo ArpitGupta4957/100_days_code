@@ -1,5 +1,5 @@
 import java.util.*;
-public class java_4 {
+public class day_4 {
     public int minGroups(int[][] intervals) {
         Arrays.sort(intervals, (a,b) -> Integer.compare(a[0],b[0]));
 
@@ -26,7 +26,7 @@ public class java_4 {
             intervals[i][0] = sc.nextInt();
             intervals[i][1] = sc.nextInt();
         }
-        java_4 obj = new java_4();
+        day_4 obj = new day_4();
         System.out.println(obj.minGroups(intervals));
     }
 }
