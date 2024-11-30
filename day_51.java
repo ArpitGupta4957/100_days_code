@@ -1,3 +1,11 @@
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 class day_51 {
     public int[][] validArrangement(int[][] pairs) {
         Map<Integer, List<Integer>> adjacencyList = new HashMap<>();
