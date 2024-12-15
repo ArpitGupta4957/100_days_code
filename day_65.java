@@ -1,3 +1,5 @@
+import java.util.PriorityQueue;
+
 class day_65 {
     public double maxAverageRatio(int[][] classes, int extraStudents) {
         // Priority queue to store classes by their potential improvement in pass ratio
@@ -14,7 +16,6 @@ class day_65 {
         while (extraStudents > 0) {
             // Extract the class with the largest improvement
             double[] top = pq.poll();
-            double improvement = top[0];
             int pass = (int) top[1];
             int total = (int) top[2];
 
