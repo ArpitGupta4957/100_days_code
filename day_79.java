@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class day_79 {
     int L, H, Z, O;
     final int M = 1_000_000_007; // Correct modulo value
