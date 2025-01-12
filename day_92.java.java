@@ -1,4 +1,4 @@
-public class Day95 {
+public class day_91 {
     //Check if a Parentheses String Can Be Valid(leetcode)
     public boolean canBeValid(String s, String locked) {
         int n = s.length();
@@ -58,7 +58,7 @@ public class Day95 {
    }
 
     public static void main(String[] args) {
-        Day95 day95 = new Day95();
+        day_91 day95 = new day_91();
         String s = "()()", locked = "00";
         System.out.println(day95.canBeValid(s, locked));
 
