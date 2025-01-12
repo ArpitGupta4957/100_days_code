@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Day93 {
+public class day_90 {
     //Words Subsets (leetcode)
     public List<String> wordSubsets(String[] words1, String[] words2) {
         List<String> ans = new ArrayList<>();
@@ -52,7 +52,7 @@ public class Day93 {
 
 
     public static void main(String[] args) {
-        Day93 obj = new Day93();
+        day_90 obj = new day_90();
         String[] words1 = {"amazon","apple","facebook","google","leetcode"}; //["amazon","apple","facebook","google","leetcode"]
         String[] words2 = {"l","e"}; 
         System.out.println(obj.wordSubsets(words1,words2));
