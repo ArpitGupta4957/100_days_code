@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class Day94{
+class day_91{
     //Construct K Palindrome Strings (leetcode)
     public boolean canConstruct(String s, int k) {
         if (k > s.length()){
@@ -39,7 +39,7 @@ class Day94{
     }
 
     public static void main(String[] args) {
-        Day94 day94 = new Day94();
+        day_91 day94 = new day_91();
         System.out.println(day94.canConstruct("annabelle", 2));
         System.out.println(day94.canConstruct("leetcode", 3));
 
