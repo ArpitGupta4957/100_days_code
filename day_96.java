@@ -1,4 +1,4 @@
-class Solution {
+class day_96 {
     public int xorAllNums(int[] A, int[] B) {
     int x = 0, y = 0;
     for (int a: A)
@@ -8,7 +8,7 @@ class Solution {
     return (A.length % 2 * y) ^ (B.length % 2 * x);
 }
     public static void main(String[] args) {
-        Solution s = new Solution();
+        day_96 s = new day_96();
         int[] A = {1, 2, 3};
         int[] B = {1, 2, 3};
         System.out.println(s.xorAllNums(A, B));
